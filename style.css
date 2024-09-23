@@ -265,8 +265,8 @@ section {
 }
 
 .btn-colour-2 {
-  background: rgb(43, 43, 43);
-  color: white;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .btn-colour-2:hover {
