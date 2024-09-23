@@ -374,13 +374,13 @@ section {
 .article-container {
   display: flex;
   flex-wrap: wrap;           
-  justify-content: center;   
+  justify-content: left;   
   gap: 1rem;               
 }
 
 article {
   display: flex;
-  align-items: center;       
+  align-items: left;       
   justify-content: flex-start; 
   gap: 0.5rem;               
   width: 5rem;
