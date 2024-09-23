@@ -304,6 +304,14 @@ section {
   border-radius: 2rem;
 }
 
+#typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid black; 
+  font-family: "Courier New", Courier, monospace; 
+}
+
 .arrow {
   position: absolute;
   right: -5rem;
