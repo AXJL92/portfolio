@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'BuenosAiresRegular', sans-serif;
+  font-family: "Courier New", Courier, monospace;
   --font-family-bold: 'BuenosAiresBold', sans-serif;
   --font-family-cursive: 'handsomebold', sans-serif;
   background-color: rgba(169, 211, 158, 0.8);
