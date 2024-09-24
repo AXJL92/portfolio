@@ -375,7 +375,7 @@ section {
 
 .article-container {
   display: flex;
-  font-size: 2vh;
+  font-size: 10px;
   flex-wrap: wrap;           
   justify-content: center;
   gap: 1rem;               
