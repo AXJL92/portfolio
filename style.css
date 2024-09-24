@@ -330,9 +330,9 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
-  max-width: 300px;         
+  max-width: 350px;         
   background: white;
   border-radius: 2rem;
   border: 0.1rem solid rgb(163, 163, 163);
