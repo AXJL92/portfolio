@@ -234,7 +234,8 @@ section {
   display: flex;
   max-height: 400px; 
   height: auto;
-  width: auto;
+  width: 100%;
+  justify-content: center;
   margin: auto 0;
   overflow: hidden;
   animation: float 3s ease-in-out infinite;
