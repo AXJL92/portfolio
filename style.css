@@ -23,7 +23,7 @@ html {
 }
 
 p {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 /* TRANSITION */
@@ -57,7 +57,7 @@ nav {
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(0, 0, 0);
 }
 
 a:hover {
@@ -362,7 +362,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0)
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -424,7 +424,7 @@ article p {
   
   .project-title {
     margin: 1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   .project-btn {
