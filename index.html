@@ -34,13 +34,13 @@
         </div>
       </div>
     </nav>
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Adam Lewis profile picture">
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Adam Lewis profile picture">
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Adam Lewis</h1>
+        <div class="greeting">Hello, I'm</div>
+        <h1 class="name">Adam Lewis</h1>        
         <p class="section__text__p2" id="typing-text">Software Developer</p>
         <div class="btn-container">
           <button class="btn btn-colour-2" onclick="window.open('./assets/cv.pdf')">
@@ -78,7 +78,7 @@
         </div>
         <div class="text-container">
           <p>
-            My name is Adam, I am a junior programmer with a certification as an AWS Cloud Practitioner from Amazon. I have a solid foundation in Python, 
+            My name is Adam Lewis, a junior programmer with a certification as an AWS Cloud Practitioner from Amazon. I have a solid foundation in Python, 
               JavaScript, HTML, and CSS, and I am currently expanding my skills in React. 
               
               <br><br>Additionally, I have a decade of experience as a self-taught Adobe Photoshop user, 
@@ -277,6 +277,23 @@
     <p>Copyright &#169; 2024 Adam Lewis. All Rights Reserved.</p>
   </footer>
     </desktop-nav></nav>
-  <script src="script.js"></script>  
+  <script src="script.js"></script>
+<script>
+  window.onload = function() {
+    const greetingElement = document.querySelector('.greeting');
+    const currentHour = new Date().getHours();
+
+    let greetingText = 'Hello, I\'m';
+    if (currentHour < 12) {
+        greetingText = 'Good Morning, I\'m';
+    } else if (currentHour < 18) {
+        greetingText = 'Good Afternoon, I\'m';
+    } else {
+        greetingText = 'Good Evening, I\'m';
+    }
+
+    greetingElement.textContent = greetingText;
+  };
+</script>
 </body>
 </html>
