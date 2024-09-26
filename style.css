@@ -330,10 +330,10 @@ section {
 }
 
 .details-container {
-  padding: 1rem;
+  padding: 1.5rem;
   flex: 1;
-  max-width: 350px;         
-  background: white;
+  max-width: 300px;         
+  background: rgb(117, 188, 206);
   border-radius: 2rem;
   border: 0.1rem solid rgb(163, 163, 163);
   border-color: rgb(163, 163, 163);
