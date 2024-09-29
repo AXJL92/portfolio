@@ -399,11 +399,6 @@ section {
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-size: 1rem;
-  display: flex;
-  justify-content: center; 
-  align-items: stretch; 
-  gap: 2rem; 
-  padding: 2rem;
 }
 
 .section-container {
@@ -477,12 +472,6 @@ article .icon {
   cursor: default;
   width: 24px;               
   height: 24px;
-}
-
-
-article p {
-  font-size: 0.9rem; 
-  over
 }
 
 /* PROJECTS SECTION */
