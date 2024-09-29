@@ -399,6 +399,11 @@ section {
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-size: 1rem;
+  display: flex;
+  justify-content: center; 
+  align-items: stretch; 
+  gap: 2rem; 
+  padding: 2rem;
 }
 
 .section-container {
@@ -500,6 +505,11 @@ article p {
   .project-title {
     margin: 1rem;
     color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center; 
+    align-items: stretch; 
+    gap: 2rem; 
+    padding: 2rem;
   }
   
   .project-btn {
