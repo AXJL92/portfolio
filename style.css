@@ -1,6 +1,11 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@font-face {
+  font-family: 'Aima Display';
+  src: url('fonts/AimaDisplay.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -42,11 +47,19 @@ window.onload = function() {
   font-size: 2rem;
   color: #fff;
   margin-top: 20px;
+  text-transform: lowercase; 
+  font-family: 'Aima Display', sans-serif; 
+  font-size: 4vh;
+  line-height: 5;
 }
 
 .name {
   color: rgb(102, 196, 219);
   line-height: 1;
+  text-transform: lowercase; 
+  font-family: 'Aima Display', sans-serif; 
+  font-size: 4vh;
+  line-height: 0;
 }
 
 p {
@@ -254,6 +267,8 @@ section {
   text-align: center;
   margin: 0;
   padding: 0;
+  text-transform: lowercase; 
+  font-family: 'Aima Display', sans-serif; 
 }
 
 .section__text p {
@@ -377,7 +392,9 @@ section {
   white-space: nowrap;
   overflow: hidden;
   border-right: 0.15em solid black; 
-  font-family: "Courier New", Courier, monospace; 
+  text-transform: lowercase; 
+  font-family: 'Aima Display', sans-serif; 
+  font-size: 4vh;
 }
 
 .arrow {
@@ -441,7 +458,8 @@ section {
   justify-content: center; 
   gap: 15px; 
   max-width: 90%; 
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .article-container div {
@@ -493,10 +511,24 @@ article p {
   
   .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: auto;
   }
   
+  .project-img-container {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    width: 100%; /* Makes the container take the full width */
+    height: 100%; /* Makes the container take the full height */
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 80%; /* Adjust the image size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
   .project-title {
     margin: 1rem;
     color: rgb(0, 0, 0);
