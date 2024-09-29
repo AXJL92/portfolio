@@ -2,7 +2,9 @@
 
 @font-face {
   font-family: 'Aima Display';
-  src: url('fonts/AimaDisplay.ttf') format('truetype');
+  src: url('fonts/AimaDisplay.woff2') format('woff2'),
+       url('fonts/AimaDisplay.woff') format('woff'),
+       url('fonts/AimaDisplay.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
