@@ -61,7 +61,7 @@ window.onload = function() {
   text-transform: lowercase; 
   font-family: 'Aima Display', sans-serif; 
   font-size: 4vh;
-  line-height: 0;
+  line-height: 1;
 }
 
 p {
