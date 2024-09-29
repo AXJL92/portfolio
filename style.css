@@ -132,15 +132,17 @@ a:hover {
 }
 
 .menu-links {
-  position: absolute;
+  position: absolute; 
   top: 100%;
   right: 0;
   background-color: white;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000; 
 }
+
 
 .menu-links a {
   display: block;
@@ -454,7 +456,8 @@ section {
 
 .greeting {
 font-weight: bold;
-font-size: 2vh;
+font-size: 3vh;
+color: #8ac7d6;
 }
 
 article {
