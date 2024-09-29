@@ -474,6 +474,12 @@ article .icon {
   height: 24px;
 }
 
+
+article p {
+  font-size: 0.9rem; 
+  over
+}
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -494,11 +500,6 @@ article .icon {
   .project-title {
     margin: 1rem;
     color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center; 
-    align-items: stretch; 
-    gap: 2rem; 
-    padding: 2rem;
   }
   
   .project-btn {
@@ -555,6 +556,9 @@ article .icon {
   
   footer p {
     text-align: center;
+  }
+  
+  
   }
   
   
