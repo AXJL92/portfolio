@@ -63,11 +63,10 @@ window.onload = function() {
 
 .name {
   color: rgb(102, 196, 219);
-  line-height: 1;
   text-transform: lowercase; 
   font-family: 'Aima Display', sans-serif; 
   font-size: 4vh;
-  line-height: 0;
+  line-height: 2;
 }
 
 p {
