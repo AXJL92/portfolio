@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif, 'Aima Display';
+}
+
+
 
 * {
   margin: 0;
