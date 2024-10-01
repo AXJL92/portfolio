@@ -76,7 +76,7 @@ p {
   padding: 0;
 }
 
-/* TRANSITION */
+/* Transition */
 
 a,
 .btn {
@@ -212,7 +212,7 @@ html {
 }
 
 
-/* SECTIONS */
+/* Sections */
 
 section {
   padding-top: 0; 
@@ -226,7 +226,7 @@ section {
   display: flex;
 }
 
-/* KEY FRAMES*/
+/* Key Frames */
 
 @keyframes gradientAnimation {
   0% { background-position: 0% 50%; }
@@ -240,7 +240,7 @@ section {
   100% { transform: translateY(0); }
 }
 
-/* PROFILE SECTION */
+/* Profile  */
 
 #profile {
   margin: 0;
@@ -305,14 +305,14 @@ section {
   gap: 1rem;
 }
 
-/* ICONS */
+/* Icons  */
 
 .icon {
   cursor: pointer;
   height: 2rem;
 }
 
-/* BUTTONS */
+/* Buttons */
 
 .btn-container {
   gap: 0;
@@ -355,7 +355,7 @@ section {
   gap: 1rem;
 }
 
-/* ABOUT SECTION */
+/* About Section  */
 
 #about {
   position: center;
@@ -430,7 +430,7 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Experience  */
 
 #experience {
   position: relative;
@@ -498,7 +498,7 @@ article p {
   over
 }
 
-/* PROJECTS SECTION */
+/* Projects  */
 
 #projects {
     position: relative;
@@ -517,16 +517,16 @@ article p {
   
   .project-img-container {
     display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
-    width: 100%; /* Makes the container take the full width */
-    height: 100%; /* Makes the container take the full height */
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 100%; 
 }
 
 .project-img {
     border-radius: 2rem;
-    width: 80%; /* Adjust the image size */
-    height: auto; /* Maintain the aspect ratio */
+    width: 80%; 
+    height: auto; 
 }
 
   .project-title {
@@ -539,7 +539,7 @@ article p {
     border-color: rgb(163, 163, 163);
   }
   
-  /* CONTACT */
+  /* Contact */
   
   #contact {
     display: flex;
@@ -579,7 +579,7 @@ article p {
     height: 2.5rem;
   }
   
-  /* FOOTER SECTION */
+  /* Footer */
   
   footer {
     height: 26vh;
@@ -589,5 +589,3 @@ article p {
   footer p {
     text-align: center;
   }
-  
-  
