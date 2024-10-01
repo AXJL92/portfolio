@@ -458,7 +458,6 @@ section {
   flex-wrap: wrap; 
   justify-content: center; 
   gap: 15px; 
-  max-width: 90%; 
   justify-content: center;
   align-items: center;
 }
