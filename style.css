@@ -1,15 +1,5 @@
 /* General */
 
-@font-face {
-  font-family: 'Aima Display';
-  src: url('fonts/AimaDisplay-Regular.woff2') format('woff2'),
-       url('fonts/AimaDisplay-Regular.woff') format('woff'),
-       url('fonts/Aima Display.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 body {
   font-family: Arial, Helvetica, sans-serif, 'Aima Display';
 }
