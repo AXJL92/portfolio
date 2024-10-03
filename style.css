@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  font-family: Arial, Helvetica, sans-serif, 'Aima Display';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -45,7 +45,7 @@ window.onload = function() {
   color: #fff;
   margin-top: 20px;
   text-transform: lowercase; 
-  font-family: 'Aima Display', sans-serif; 
+  font-family: "Courier New", Courier, monospace;
   font-size: 4vh;
   line-height: 4;
 }
@@ -53,7 +53,7 @@ window.onload = function() {
 .name {
   color: rgb(102, 196, 219);
   text-transform: lowercase; 
-  font-family: 'Aima Display', sans-serif; 
+  font-family: "Courier New", Courier, monospace;
   font-size: 4vh;
   line-height: 1;
 }
@@ -264,7 +264,7 @@ section {
   margin: 0;
   padding: 0;
   text-transform: lowercase; 
-  font-family: 'Aima Display', sans-serif; 
+  font-family: "Courier New", Courier, monospace;
 }
 
 .section__text p {
@@ -411,7 +411,7 @@ section {
   overflow: hidden;
   border-right: 0.15em solid black; 
   text-transform: lowercase; 
-  font-family: 'Aima Display', sans-serif; 
+  font-family: "Courier New", Courier, monospace; 
   font-size: 4vh;
 }
 
