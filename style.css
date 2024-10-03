@@ -385,6 +385,7 @@ section {
 }
 
 .text-container {
+  font-size: 1vh;
   flex: 1; 
   max-width: 45%; 
   text-align: left; 
