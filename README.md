@@ -1,15 +1,33 @@
-# Adam Lewis's Programmer Portfolio
+🖥️ Adam Lewis's Programmer Portfolio
+👋 Welcome!
+Hello! I’m Adam Lewis, a dedicated front-end developer focused on creating engaging, responsive web applications. My expertise includes HTML, CSS, JavaScript, and I’m currently expanding my skills with React to add dynamic interactivity to my projects. This portfolio is a showcase of my journey in web development, with a few back-end projects and a classic game for a bit of fun!
 
-## Welcome!
-Hi, I'm Adam Lewis, a passionate software developer with expertise in front-end and back-end web development. This portfolio showcases some of the projects I've worked on using technologies like JavaScript, HTML, CSS, Python, and Git.
+🔧 **Technologies & Skills**
+Front-End: HTML, CSS, JavaScript, React (learning 📚)
+Back-End & Tools: Python, Git, API Integration
 
-## Technologies & Skills
-- Languages: JavaScript, Python
-- Web: HTML, CSS
-- Tools: Git
+🚀 **Featured Projects** 🚀
 
-## Projects
+⚽ **Football Fixture List Tracker** ⚽
+Description: A Python-based script that automates tracking football fixtures via an external API. Receive email reminders for upcoming matches of your favourite team, ensuring you never miss a game! This project demonstrates my skills with APIs and creating automated solutions.
+Tech Stack: Python, API Integration, Email Automation
 
-### [Football Fixture List Tracker]([https://github.com/adamlewis/project](https://github.com/AXJL92/footballFixtureTracker))
-- **Description**: The Football Fixture List Tracker is a Python-based script designed to automate the process of retrieving a football team's upcoming matches from an external API. It simplifies the task of keeping track of all games for your chosen football club by using an API token for authentication to fetch the latest fixture data. The script regularly checks for new fixtures and sends email notifications to remind users about upcoming matches, ensuring they never miss a game. This project demonstrates the integration of APIs and email services to build a useful and practical tool for football enthusiasts.
-- **Tech Stack**: Python, API Integration
+☁️ **Weather Tracker** ☁️
+Description: A weather tracking tool that pulls real-time data using APIs. It’s a practical example of back-end functionality that I plan to pair with a front-end interface for a complete application experience.
+Tech Stack: Python, API Integration
+
+🐍 **Classic Snake Game** 🐍 
+Description: A throwback to the classic Snake Game, built from scratch using JavaScript, HTML, and CSS. This project showcases my skills in front-end interactivity, DOM manipulation, and responsive game design.
+Tech Stack: JavaScript, HTML5 Canvas, CSS
+
+🌐 **Personal Portfolio**
+Description: My personal portfolio website is a responsive showcase of my skills, designed with HTML, CSS, and JavaScript. It includes interactive elements and animations, demonstrating my front-end design abilities. I’m currently integrating React to make it even more modular and dynamic.
+Tech Stack: HTML, CSS, JavaScript, React (in progress 🛠️)
+
+🎯 **Development Goals**
+I’m continuously working on:
+
+Mastering React: Building modular, scalable components to create dynamic applications.
+State Management: Adopting best practices to handle complex data in user interfaces.
+UI/UX: Creating user-centred, visually engaging designs in all my projects.
+Thank you for exploring my portfolio! Each project reflects my dedication to growth, creativity, and delivering user-focused web solutions. 😊
