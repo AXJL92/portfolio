@@ -1,4 +1,5 @@
-🖥️ Adam Lewis's Programmer Portfolio
+🖥️ **Adam Lewis's Programmer Portfolio**
+
 👋 Welcome!
 Hello! I’m Adam Lewis, a dedicated front-end developer focused on creating engaging, responsive web applications. My expertise includes HTML, CSS, JavaScript, and I’m currently expanding my skills with React to add dynamic interactivity to my projects. This portfolio is a showcase of my journey in web development, with a few back-end projects and a classic game for a bit of fun!
 
