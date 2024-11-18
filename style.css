@@ -254,15 +254,14 @@ section {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  max-height: 400px; 
-  height: auto;
-  justify-content: center;
-  overflow: hidden;
   animation: float 3s ease-in-out infinite;
 }
 
 .section__pic-container2 {
-  display: flex;
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
 
