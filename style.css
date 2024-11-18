@@ -72,6 +72,13 @@ a,
   transition: all 300ms ease;
 }
 
+img {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Desktop Nav  */
 
 nav,
