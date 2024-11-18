@@ -72,7 +72,7 @@ a,
   transition: all 300ms ease;
 }
 
-.profilepic {
+#profilepic {
     display: block;
     width: 100px;
     margin-left: auto;
