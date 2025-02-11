@@ -73,14 +73,11 @@ a,
 }
 
 #profilepic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+    width: 100px; 
+    max-width: 100%; 
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 /* Desktop Nav  */
