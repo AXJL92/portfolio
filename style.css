@@ -74,7 +74,9 @@ a,
 
 #profilepic {
     display: block;
-    width: 100px !important;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
